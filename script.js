@@ -14,6 +14,15 @@ const portfolio = new Typed("#portfolio", {
     loop: true,
   });
 
+
+  // portfolio effect
+const skillset = new Typed("#skillset", {
+    strings: ["My Technical Skillset"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+  });
+
 // Particles background
 particlesJS("particles-js", {
   particles: {
@@ -30,3 +39,5 @@ particlesJS("particles-js", {
     }
   }
 });
+
+
